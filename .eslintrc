@@ -2,17 +2,7 @@
 	"env": {
 		"browser": true,
 		"jquery": true,
-		"node": true,
-		"mocha": true,
-		"phantomjs": true
-	},
-	"globals": {
-		"require": true,
-		"describe": true,
-		"description": true,
-		"module": true,
-		"chai": true,
-		"it": true
+		"node": true
 	},
 	"rules": {
 		"accessor-pairs": [2],
