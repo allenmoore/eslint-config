@@ -1,6 +1,6 @@
 # eslint-config-allenmoore
 
-[![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci]
+[![Build Status](https://travis-ci.org/allenmoore/eslint-config.svg?branch=master)](https://travis-ci.org/allenmoore/eslint-config)[ci]
 
 [eslint-config-allenmoore] is a shareable configuration package for [eslint].
 
