@@ -1,6 +1,6 @@
 # eslint-config-allenmoore
 
-[![Build Status](https://travis-ci.org/allenmoore/eslint-config.svg?branch=master)](https://travis-ci.org/allenmoore/eslint-config)[ci]
+[![Build Status](https://travis-ci.org/allenmoore/eslint-config.svg?branch=master)](https://travis-ci.org/allenmoore/eslint-config)
 
 [eslint-config-allenmoore] is a shareable configuration package for [eslint].
 
