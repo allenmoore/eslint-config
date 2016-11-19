@@ -2,7 +2,23 @@
 	"env": {
 		"browser": true,
 		"jquery": true,
-		"node": true
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"arrowFunctions": true,
+			"blockBindings": true,
+			"classes": true,
+			"destructuring": true,
+			"forOf": true,
+			"generators": true,
+			"modules": true,
+			"objectLiteralComputedProperties": true,
+			"objectLiteralShorthandMethods": true,
+			"objectLiteralShorthandProperties": true,
+			"templateStrings": true
+		}
 	},
 	"globals": {
 		"require": true,
@@ -57,7 +73,7 @@
 		"no-class-assign": [2],
 		"no-cond-assign": [2],
 		"no-console": [2],
-		"no-const-assign": [2],
+		"no-const-assign": [1],
 		"no-constant-condition": [0],
 		"no-continue": [0],
 		"no-control-regex": [2],
