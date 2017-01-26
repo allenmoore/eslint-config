@@ -2,7 +2,7 @@
   "name": "eslint-config-allenmoore",
   "version": "1.1.0",
   "description": "A shareable ESLint configuration",
-  "main": ".eslintrc",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/allenmoore/eslint-config.git"
@@ -16,10 +16,19 @@
   "keywords": [
     "eslint",
     "eslint-config",
-    "allenmoore"
+    "allenmoore",
+    "javascript",
+    "config",
+    "styleguide"
   ],
   "devDependencies": {
-    "eslint": "^2.0.0"
+    "eslint": "^3.14.0",
+    "eslint-find-rules": "^1.14.3",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-plugin-import": "^2.2.0"
   },
   "eslintContig": {
     "extends": "./.eslintrc"
