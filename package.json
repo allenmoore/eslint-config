@@ -1,27 +1,36 @@
 {
-  "name": "eslint-config-allenmoore",
-  "version": "1.1.0",
-  "description": "A shareable ESLint configuration",
-  "main": ".eslintrc",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/allenmoore/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/allenmoore/eslint-config/issues"
-  },
-  "author": "Allen Moore <am@allenmoore.me> (https://allenmoore.me)",
-  "license": "GPL-2.0+",
-  "homepage": "https://github.com/allenmoore/eslint-config#readme",
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "allenmoore"
-  ],
-  "devDependencies": {
-    "eslint": "^2.0.0"
-  },
-  "eslintContig": {
-    "extends": "./.eslintrc"
-  }
+	"name": "eslint-config-allenmoore",
+	"version": "2.0.0",
+	"description": "A shareable ESLint configuration",
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"allenmoore",
+		"javascript",
+		"config",
+		"styleguide"
+	],
+	"homepage": "https://github.com/allenmoore/eslint-config#readme",
+	"bugs": {
+		"url": "https://github.com/allenmoore/eslint-config/issues"
+	},
+	"license": "GPL-2.0+",
+	"author": "Allen Moore <am@allenmoore.me> (https://allenmoore.me)",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/allenmoore/eslint-config.git"
+	},
+	"devDependencies": {
+		"eslint": "^3.14.0",
+		"eslint-find-rules": "^1.14.3",
+		"eslint-plugin-import": "^2.2.0"
+	},
+	"peerDependencies": {
+		"eslint": "^3.14.0",
+		"eslint-plugin-import": "^2.2.0"
+	},
+	"eslintConfig": {
+		"extends": "./.eslintrc"
+	}
 }
