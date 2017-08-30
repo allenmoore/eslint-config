@@ -27,7 +27,7 @@ module.exports = {
 		'id-blacklist': ['error', 'data', 'err', 'callback'],
 		'id-length': 'off',
 		'id-match': 'off',
-		'indent': ['error', 'tab'],
+		'indent': ['error', '2'],
 		'jsx-quotes': ['error', 'prefer-double'],
 		'key-spacing': ['error', { beforeColon: false, afterColon: true }],
 		'keyword-spacing': ['error', {
@@ -130,7 +130,7 @@ module.exports = {
 		'sort-vars': 'off',
 		'space-before-blocks': 'error',
 		'space-before-function-paren': ['error', 'never'],
-		'space-in-parens': ['error', 'always'],
+		'space-in-parens': ['error', 'never'],
 		'space-infix-ops': 'error',
 		'space-unary-ops': ['error', {
 			words: true,
