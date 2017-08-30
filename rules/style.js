@@ -27,7 +27,7 @@ module.exports = {
 		'id-blacklist': ['error', 'data', 'err', 'callback'],
 		'id-length': 'off',
 		'id-match': 'off',
-		'indent': ['error', '2'],
+		'indent': ['error', 2],
 		'jsx-quotes': ['error', 'prefer-double'],
 		'key-spacing': ['error', { beforeColon: false, afterColon: true }],
 		'keyword-spacing': ['error', {
