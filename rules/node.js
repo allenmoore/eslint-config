@@ -4,9 +4,10 @@ module.exports = {
 	},
 
 	rules: {
-		'callback-return': ['error', ['callback', 'cb', 'next']],
+		'callback-return': 'off',
 		'global-require': 'error',
-		'handle-callback-err': ['error', '^err(or)?$'],
+		'handle-callback-err': 'off',
+		'no-buffer-constructor': 'error',
 		'no-mixed-requires': ['off', false],
 		'no-new-require': 'error',
 		'no-path-concat': 'error',
