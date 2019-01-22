@@ -32,5 +32,8 @@
   },
   "eslintConfig": {
     "extends": "./.eslintrc"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.5"
   }
 }
